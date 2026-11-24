@@ -66,6 +66,11 @@ au Nigeria (RMSE 1,84 M contre 1,92 M). Les séries sont courtes et irrégulièr
 | 2021 | −40,2 % | −39,9 % |
 | 2022 | −50,6 % | −34,6 % |
 | 2023 | −46,0 % | −38,1 % |
+![Burkina Faso : trafic observé et scénario tendanciel](images/bfa_trafic_vs_tendance.png)
+
+![Nigeria : trafic observé et scénario tendanciel](images/nga_trafic_vs_tendance.png)
+
+![Sénégal : série brute avec ruptures](images/sen_serie_brute.png)
 
 En 2023, le trafic reste inférieur de près de la moitié (Burkina Faso) et de plus d'un tiers (Nigeria) à la tendance
 d'avant la crise. Ces écarts dépendent du scénario retenu ; ils décrivent un ordre de grandeur, pas une mesure causale.
