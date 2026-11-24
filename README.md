@@ -10,7 +10,7 @@ Pays étudiés : Mali, Sénégal, Côte d'Ivoire, Burkina Faso, Niger, Ghana, Ni
   série annuelle, élaborée à partir des données de l'OACI.
 - **Téléchargement :** https://data.worldbank.org/indicator/IS.AIR.PSGR → « Download CSV »,
   puis placer le fichier dans `data/`.
-- Date de téléchargement : [À COMPLÉTER]
+- Date de téléchargement : novembre 2026
 
 ## Méthode
 0. **Contrôle qualité :** séries limitées à 1990 et après ; trous de 2 ans ou moins comblés par
