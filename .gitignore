@@ -1,0 +1,10 @@
+outputs/
+__pycache__/
+.pytest_cache/
+*.pyc
+data/
+venv/
+*venv*/
+.venv/
+/air_transport/
+/air_transport/
