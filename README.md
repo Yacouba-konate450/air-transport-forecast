@@ -5,6 +5,11 @@ Projet d'analyse et de prévision de séries temporelles appliqué au transport 
 ouvertes et mesurer l'écart entre le trafic observé après 2019 et un scénario tendanciel (choc COVID-19).
 Pays étudiés : Mali, Sénégal, Côte d'Ivoire, Burkina Faso, Niger, Ghana, Nigeria.
 
+### En bref
+- **Qualité des données :** sur 7 pays, seuls le Burkina Faso et le Nigeria ont une série assez continue et stable pour une évaluation fiable.
+- **Prévision à 1 an :** aucun des modèles testés (dérive, ETS, ARIMA) ne bat la prévision naïve (MAPE 11,8 % au Burkina Faso, 18,3 % au Nigeria).
+- **Après le COVID-19 :** en 2023, le trafic reste nettement sous le niveau d'avant la crise (de −24 % à −46 % au Burkina Faso selon la référence, −38 % au Nigeria par rapport à la tendance).
+
 ## Données
 - **Source :** Banque mondiale, indicateur `IS.AIR.PSGR` (*Air transport, passengers carried*),
   série annuelle, élaborée à partir des données de l'OACI.
@@ -66,6 +71,7 @@ au Nigeria (RMSE 1,84 M contre 1,92 M). Les séries sont courtes et irrégulièr
 | 2021 | −40,2 % | −39,9 % |
 | 2022 | −50,6 % | −34,6 % |
 | 2023 | −46,0 % | −38,1 % |
+
 ![Burkina Faso : trafic observé et scénario tendanciel](images/bfa_trafic_vs_tendance.png)
 
 ![Nigeria : trafic observé et scénario tendanciel](images/nga_trafic_vs_tendance.png)
@@ -87,5 +93,22 @@ d'avant la crise. Ces écarts dépendent du scénario retenu ; ils décrivent un
 - Les données nationales agrégées ne distinguent ni les lignes, ni le fret, ni les mouvements d'avions.
 
 ## Pistes d'extension
-Prévision du fret et des mouvements d'aéronefs, comparaison avec des pays voisins (Sénégal, Côte d'Ivoire, Burkina Faso),
-prise en compte du PIB comme variable explicative.
+- Compléter les séries avec les statistiques nationales (ANAC, Aéroports du Mali, ASECNA, bulletins de l'ANACIM) pour combler les trous du Mali et vérifier les ruptures du Sénégal.
+- Passer à des données mensuelles par aéroport, ce qui permettrait des modèles saisonniers (SARIMA) et des tests de significativité.
+- Prévoir aussi le fret et les mouvements d'aéronefs ; tester le PIB comme variable explicative.
+
+## Structure du projet
+```
+├── src/forecast.py          # chargement, contrôle qualité, modèles, évaluation, scénario, graphiques
+├── tests/test_pipeline.py   # tests sur données synthétiques (pytest)
+├── images/                  # graphiques repris dans ce README
+└── requirements.txt
+```
+
+## Auteur
+Yacouba Konaté · GitHub
+
+Données : Banque mondiale / OACI, licence CC BY 4.0.
+**Yacouba Konaté** · [GitHub](https://github.com/Yacouba-konate450)
+
+*Données : Banque mondiale / OACI, licence CC BY 4.0.*
