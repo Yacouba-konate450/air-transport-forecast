@@ -76,6 +76,7 @@ En 2023, le trafic reste inférieur de près de la moitié (Burkina Faso) et de 
 d'avant la crise. Ces écarts dépendent du scénario retenu ; ils décrivent un ordre de grandeur, pas une mesure causale.
 
 ## Limites
+- Burkina Faso : 2018–2019 sont les années les plus hautes de la série ; l'écart de 2023 est d'environ −46 % par rapport au scénario tendanciel, mais d'environ −24 % par rapport à la moyenne 2010–2017. L'écart dépend fortement de la référence choisie.
 - Série **annuelle** : peu d'observations, donc des intervalles d'erreur larges et 15 origines d'évaluation par pays.
   Pas de test de significativité (trop peu de points).
 - Les données de la Banque mondiale proviennent de déclarations nationales à l'OACI ; leurs trous et ruptures
