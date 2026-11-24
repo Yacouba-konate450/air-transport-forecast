@@ -110,5 +110,3 @@ Yacouba Konaté · GitHub
 
 Données : Banque mondiale / OACI, licence CC BY 4.0.
 **Yacouba Konaté** · [GitHub](https://github.com/Yacouba-konate450)
-
-*Données : Banque mondiale / OACI, licence CC BY 4.0.*
